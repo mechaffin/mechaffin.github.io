@@ -1,0 +1,47 @@
+/* 
+Alster Orange: #EB7814
+*/
+.about {
+    float: left;
+    max-width: 40rem;
+    margin-right: 3rem;
+    margin-top: 1rem;
+    font-size: 0.8rem;
+}
+.about a {
+  color: #333333;
+  text-decoration: underline;
+}
+.about a.visited {
+  color: #666666;
+}
+.bg-orange {
+  background-color: #EB7814;
+}
+.center {
+    text-align: center;
+}
+.head-shot {
+  height: 250px;
+  width: 250px;
+}
+.logo {
+  height: 8rem;
+  margin: 0.25rem;
+}
+.mainsection {
+  margin-top: 1rem;
+  margin-bottom: 10rem;
+}
+@media screen and (max-width: 600px) {
+    .mainsection {
+       margin-bottom: 14rem;
+    }
+    .extra {
+       display: none;
+    }
+}
+.nospace {
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
