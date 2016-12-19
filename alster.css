@@ -1,6 +1,9 @@
 /* 
 Alster Orange: #EB7814
 */
+html {
+  font-size: 16px;
+}
 .about {
     float: left;
     max-width: 40rem;
@@ -37,6 +40,13 @@ Alster Orange: #EB7814
   display: none;
 }
 @media screen and (max-width: 680px) {
+    html {
+      font-size: 14px;
+    }
+    .head-shot {
+      height: 200px;
+      width: 200px;
+    }
     .logo {
       height: 6rem;
     }
@@ -47,7 +57,7 @@ Alster Orange: #EB7814
        display: none;
     }
 }
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 410px) {
   .logo {
     height: 6rem;
     margin: -2rem 0.25rem 0.25rem 0.25rem;
