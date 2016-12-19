@@ -31,15 +31,27 @@ Alster Orange: #EB7814
 }
 .mainsection {
   margin-top: 1rem;
-  margin-bottom: 10rem;
+  margin-bottom: 12rem;
 }
-@media screen and (max-width: 600px) {
-    .mainsection {
-       margin-bottom: 14rem;
+.less {
+  display: none;
+}
+@media screen and (max-width: 680px) {
+    .logo {
+      height: 6rem;
     }
-    .extra {
+    .less {
+       display: inline;
+    }
+    .more {
        display: none;
     }
+}
+@media screen and (max-width: 480px) {
+  .logo {
+    height: 6rem;
+    margin: -2rem 0.25rem 0.25rem 0.25rem;
+  }
 }
 .nospace {
   margin-top: 0px;
