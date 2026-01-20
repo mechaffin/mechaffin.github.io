@@ -1,1 +1,14 @@
-*.db
+# Old site for local archive
+_old/
+
+# Jekyll build output
+_site/
+
+# Cache and metadata
+.jekyll-cache/
+.jekyll-metadata
+.sass-cache/
+
+# Bundler dependencies
+/vendor/
+.bundle/

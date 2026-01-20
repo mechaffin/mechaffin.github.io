@@ -1,0 +1,21 @@
+{
+  "version": "2.0.0",
+  "tasks": [
+    {
+      "label": "Serve Jekyll",
+      "type": "shell",
+      "command": "bundle",
+      "args": [
+        "exec",
+        "jekyll",
+        "serve",
+        "--livereload"
+      ],
+      "group": {
+        "kind": "build",
+        "isDefault": true
+      },
+      "problemMatcher": []
+    }
+  ]
+}

@@ -1,0 +1,54 @@
+title: "Clear systems, usable experiences"
+description: "A personal site with experience audits, professional work, and interests shaped by a focus on clarity and usability."
+author: "Mary Ellen Chaffin"
+email: "mechaffin@gmail.com"
+url: "https://mechaffin.github.io"
+baseurl: ""
+timezone: "America/Los_Angeles"
+lang: "en"
+
+# Theme
+theme: minima
+
+# Plugins
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag
+  - jekyll-sitemap
+
+# Build settings
+markdown: kramdown
+permalink: /:year/:month/:day/:title/
+excerpt_separator: "<!-- more -->"
+
+# Exclude from build
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - vendor
+  - .bundle
+  - .jekyll-cache
+
+# Social links and theme options (minima)
+minima:
+  skin: classic
+  social_links:
+    - platform: github
+      icon: github
+      user_url: "https://github.com/mechaffin"
+    - platform: linkedin
+      icon: linkedin
+      user_url: "https://linkedin.com/in/mechaffin"
+
+# Legacy social usernames for Minima (improves compatibility)
+github_username: mechaffin
+linkedin_username: mechaffin
+
+# Dates rendered consistently site-wide
+date_format: "%Y-%m-%d"
+
+# Control which pages appear in the top navigation
+header_pages:
+  - index.md
+  - work/index.md
+  - personal/index.md

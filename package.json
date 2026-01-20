@@ -1,0 +1,8 @@
+{
+  "name": "mechaffin-github-io",
+  "version": "1.0.0",
+  "scripts": {
+    "serve": "bundle exec jekyll serve --livereload",
+    "build": "bundle exec jekyll build"
+  }
+}
