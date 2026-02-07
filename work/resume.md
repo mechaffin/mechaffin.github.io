@@ -3,21 +3,24 @@ layout: page
 title: Resume
 ---
 
-- **[Download resume (PDF)](/work/2026-01 Mary Ellen Chaffin - Resume.pdf)**
-
-Senior, systems-minded front-end engineer focused on making sense of ambiguous, complex problem spaces and shaping them into clear, usable systems. Experienced across front-end engineering, UX writing, internal tooling, and technical consulting, with a consistent emphasis on clarity, structure, and enablement.
+- **[Download resume (PDF)](/work/2026-02 Mary Ellen Chaffin - Resume.pdf)**
 
 ---
 
+Frontend software engineer with senior-level experience building complex, production UI systems. Specializes in ambiguous problem spaces, early structure, and system-level clarity. Strong focus on React and TypeScript, front-end architecture, state and data flow design, and internal tools.
+
 ## Core capabilities
 
-- Sense-making under ambiguity
-- Systems thinking and problem framing
-- Early pattern recognition
-- Front-end architecture and UI structure
+- React, TypeScript, JavaScript
+- State management and async data flows
+- REST and GraphQL API integration
+- Front-end architecture and component design
+- Design systems: Amazon Cloudscape, Material UI
 - UX writing and interface clarity
-- Complex workflows, state, and data flows
-- Technical communication and enablement
+- Data visualization: Highcharts, D3
+- Unit testing with Vitest
+- Code reviews and technical feedback
+- Cross-functional backend collaboration
 
 ---
 
@@ -25,48 +28,58 @@ Senior, systems-minded front-end engineer focused on making sense of ambiguous, 
 
 ### Senior Front-End Engineer
 
-**Amazon Web Services (via 24Seven)** — Remote  
-_Aug 2024 – Present_
+**Amazon Web Services** (via 24Seven) | Remote | _Aug 2024 – Feb 2026_
 
-- Joined a new AWS service with evolving requirements and helped establish early structure as the product moved from concept to production.
-- Designed front-end architecture using React, TypeScript, Cloudscape, and TanStack Query/Router.
-- Shipped two applications from zero to production, including an AWS Console tool delivered in under three months.
-- Improved interface clarity and consistency through UX writing, refining language, labels, and flow.
-
-### Senior Front-End Engineer
-
-**Intuit (via Cydio Group)** — Remote  
-_Feb 2023 – Jul 2023_
-
-- Worked on Komposer, an internal knowledge engine tool, building proof-of-concept front-end features to explore state management and multi-user synchronization.
-- Implemented core React functionality in the production codebase, partnering with design to ensure clarity and feasibility.
-- Provided front-end guidance and mentoring to full-stack engineers, supporting consistent patterns and shared understanding.
+- Established early front-end structure for a new AWS service.
+- Designed UI architecture using React and TypeScript.
+- Used Cloudscape as the primary design system.
+- Managed application state with React Context.
+- Managed server data with TanStack Query.
+- Shipped two production applications from zero.
+- Delivered an AWS Console tool in under three months.
+- Built data visualizations using Highcharts and D3.
+- Wrote unit tests with Vitest.
+- Participated in regular code reviews.
+- Collaborated directly with backend engineers.
+- Improved interface clarity through UX writing.
 
 ### Senior Front-End Engineer
 
-**SparkCognition (via MAANA acquisition)** — Bellevue, WA & Remote  
-_Feb 2019 – Jan 2023_
+**Intuit** (via Cydio Group) | Remote | _Feb 2023 – Jul 2023_
 
-- Worked on a complex computational knowledge graph platform, translating abstract models into usable, understandable interfaces.
-- Designed and implemented a Bayesian network authoring and debugging experience, balancing expressive power with usability.
-- Improved UI consistency and maintainability through refactoring, theming, and clearer component boundaries.
-- Evaluated and introduced libraries for state management, diagramming, and testing to support long-term scalability.
-- Mentored college interns on front-end engineering, product thinking, and team practices.
+- Built proof-of-concept UI features for Komposer.
+- Implemented React features against REST APIs.
+- Focused on state consistency in complex workflows.
+- Worked within constrained backend contracts.
+- Participated in code reviews.
+- Provided front-end guidance to full-stack engineers.
+
+### Senior Front-End Engineer
+
+**SparkCognition** (via MAANA acquisition) | Bellevue, WA & Remote | _Feb 2019 – Jan 2023_
+
+- Built UI for a computational knowledge graph platform.
+- Designed a Bayesian Network authoring interface.
+- Integrated front-end features with GraphQL backends.
+- Used MobX for application and data state.
+- Refactored UI for consistency and maintainability.
+- Introduced libraries for state, diagramming, and testing.
+- Mentored interns on front-end engineering fundamentals.
 
 ### Selected earlier experience
 
-- **Microsoft** — UI and platform engineering for developer tools and enterprise dashboards
-- **eBay** — Front-end architecture for global shipping and workflow tools
-- **Southern Company** — Technical consulting and developer enablement
-- **Alaska Airlines** — Customer-facing e-commerce UI with a focus on accessibility
-- **CommerceHub** — Backend service design and cross-functional product delivery
-- **Magenic Technologies** — Consulting focused on performance, usability, and code quality
+- **Microsoft**: UI and platform engineering for developer tools
+- **eBay**: Front-end architecture for global shipping workflows
+- **Southern Company**: Reusable component strategy and enablement
+- **Alaska Airlines**: Customer-facing e-commerce UI
+- **CommerceHub**: Backend service design and delivery
+- **Magenic Technologies**: Performance, usability, and code quality consulting
 
 ---
 
 ## Education
 
-**Bachelor of Science** — Computer Science and Music  
+**Bachelor of Science**, Computer Science and Music (New College)
 University of Alabama, Tuscaloosa, AL
 
 ---
@@ -79,4 +92,4 @@ University of Alabama, Tuscaloosa, AL
 
 ---
 
-_Last updated: 2026-01_
+_Last updated: 2026-02_
