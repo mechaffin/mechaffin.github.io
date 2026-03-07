@@ -3,24 +3,24 @@ layout: page
 title: Resume
 ---
 
-- **[Download resume (PDF)](/work/2026-02 Mary Ellen Chaffin - Resume.pdf)**
+- **[Download resume (PDF)](/work/2026-03 Mary Ellen Chaffin - Resume.pdf)**
 
 ---
 
 Frontend software engineer with senior-level experience building complex, production UI systems. Specializes in ambiguous problem spaces, early structure, and system-level clarity. Strong focus on React and TypeScript, front-end architecture, state and data flow design, and internal tools.
 
-## Core capabilities
+--- 
+## Capabilities
 
 - React, TypeScript, JavaScript
 - State management and async data flows
-- REST and GraphQL API integration
-- Front-end architecture and component design
-- Design systems: Amazon Cloudscape, Material UI
 - UX writing and interface clarity
 - Data visualization: Highcharts, D3
+- UI performance and front-end architecture
+- REST and GraphQL API integration
+- Design systems: Material UI, Cloudscape
 - Unit testing with Vitest
-- Code reviews and technical feedback
-- Cross-functional backend collaboration
+- Cross-functional collaboration with design and backend teams
 
 ---
 
@@ -30,28 +30,20 @@ Frontend software engineer with senior-level experience building complex, produc
 
 **Amazon Web Services** (via 24Seven) | Remote | _Aug 2024 – Feb 2026_
 
-- Established early front-end structure for a new AWS service.
-- Designed UI architecture using React and TypeScript.
-- Used Cloudscape as the primary design system.
-- Managed application state with React Context.
-- Managed server data with TanStack Query.
-- Shipped two production applications from zero.
-- Delivered an AWS Console tool in under three months.
-- Built data visualizations using Highcharts and D3.
-- Wrote unit tests with Vitest.
-- Participated in regular code reviews.
-- Collaborated directly with backend engineers.
-- Improved interface clarity through UX writing.
+- Shipped two production applications from zero, including a tool delivered to AWS Console users in under four months.
+- Owned the full front-end from architecture to shipped experience on a greenfield service developed with React, TypeScript, TanStack Query, Vitest, and Cloudscape.
+- Built a centralized state system driving routing, URL construction, and data fetching across a complex multi-page application eliminating stale filter bugs and keeping the URL reliably in sync with what the user sees.
+- Built a data visualization layer using D3 and Highcharts, with five chart types sharing common infrastructure for responsive sizing, pan/zoom, loading states, and error handling.
+- Designed a three-tier in-app guidance system (reference docs, walkthroughs, and interactive tutorials) tuned to different user skill levels and moments of need.
+- Wrote UX copy throughout both applications (labels, empty states, errors, onboarding) treating language as part of the product experience, not a finishing step.
+- Collaborated directly with backend engineers to shape API contracts, flag UX gaps early, and keep the product moving without waiting on formal handoffs.
 
 ### Senior Front-End Engineer
 
 **Intuit** (via Cydio Group) | Remote | _Feb 2023 – Jul 2023_
 
-- Built proof-of-concept UI features for Komposer.
-- Implemented React features against REST APIs.
+- Built proof-of-concept UI features for Komposer against REST APIs.
 - Focused on state consistency in complex workflows.
-- Worked within constrained backend contracts.
-- Participated in code reviews.
 - Provided front-end guidance to full-stack engineers.
 
 ### Senior Front-End Engineer
@@ -74,6 +66,14 @@ Frontend software engineer with senior-level experience building complex, produc
 - **Alaska Airlines**: Customer-facing e-commerce UI
 - **CommerceHub**: Backend service design and delivery
 - **Magenic Technologies**: Performance, usability, and code quality consulting
+---
+
+## Personal projects
+- **Clinical Differential Diagnosis Assistant**: Claude-powered tool helping mental health clinicians produce more complete diagnoses with hybrid LLM extraction plus deterministic rule engine, schema-driven React UI. Built with a clinical expert partner (20+ years).
+- **Echo Chamber**: Desktop application for creating and running teams of AI agents via the Anthropic API -
+React, TypeScript, Express backend, streaming chat interface.
+- **Field Kit**: Offline-first mapping platform for locating USGS survey markers without cell service - React
+PWA, IndexedDB, service workers.
 
 ---
 
@@ -92,4 +92,4 @@ University of Alabama, Tuscaloosa, AL
 
 ---
 
-_Last updated: 2026-02_
+_Last updated: 2026-03_
