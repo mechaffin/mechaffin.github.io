@@ -1,7 +1,6 @@
 ---
-layout: page
-title: Alster Basenjis
-permalink: /alster-basenjis/
+layout: ../layouts/PageLayout.astro
+title: "Alster Basenjis"
 ---
 
 # Sight. Scent. Hounds.
@@ -82,7 +81,7 @@ Regal. And mischeivious.
 
 ## Community involvement
 
-I’ve been actively involved in the Basenji and dog sport community for many years:
+I've been actively involved in the Basenji and dog sport community for many years:
 
 - **[Evergreen Basenji Club](http://evergreenbasenjiclub.org)**
   - 2014–2024: Board of Directors, including 7 years as President
@@ -90,7 +89,7 @@ I’ve been actively involved in the Basenji and dog sport community for many ye
 - **[Basenji Club of America](http://basenji.org)**
   - 2026–present: Board of Directors, Secretary
   - 2014–present: Various committees, including roster, lure coursing, and performance/versatility
-  - 2015–2019: _Bulletin_ editor of BCOA’s quarterly printed magazine
+  - 2015–2019: _Bulletin_ editor of BCOA's quarterly printed magazine
 - **Lure coursing**
   - 2015–present: American Sighthound Field Association (ASFA): All-breed judge
   - 2015–present: American Kennel Club (AKC): All-breed judge #98980

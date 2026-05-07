@@ -1,9 +1,8 @@
 ---
-layout: case-study
 title: "Forms as Data: A Frontend Toolkit Built for Inline AI Forms"
 positioning: "Schema-driven forms AI can render mid-conversation"
-date: 2026-03-18
-status: published
+description: "Schema-driven forms AI can render mid-conversation"
+pubDate: 2026-03-18
 tracks: [dev]
 stack: [React 19, TypeScript, MUI 7, Zod 4]
 ---
@@ -24,7 +23,7 @@ Two audiences came along for the ride.
 
 The toolkit ships two packages — `core` for contract types and validation, `ui-kit` for the React/MUI rendering — and rests on two decisions: a form system that renders from runtime schemas, and semantic components opinionated enough to make context-appropriate choices on their own.
 
-![Model Card Studio — the assistant calls open_form mid-conversation; the inline form in the chat and the side panel render from the same FieldDefinition array.](/assets/images/case-studies/frontend-toolkit/model-card-studio.png)
+![Model Card Studio — the assistant calls open_form mid-conversation; the inline form in the chat and the side panel render from the same FieldDefinition array.](../../assets/blog/frontend-toolkit/model-card-studio.png)
 _Model Card Studio — the assistant calls `open_form` mid-conversation with a slice of the schema; the inline form in the chat and the side panel render from the same `FieldDefinition` array._
 
 ## Forms at runtime, not compile time

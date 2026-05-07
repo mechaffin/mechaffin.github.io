@@ -8,12 +8,15 @@ import Header from '../components/Header.astro';
 
 type Props = CollectionEntry<'blog'>['data'];
 
-const { title, description, pubDate, updatedDate, heroImage } = Astro.props;
+const { title, description, pubDate, updatedDate, heroImage, positioning, tracks, stack } =
+	Astro.props;
+
+const effectiveDescription = description ?? positioning;
 ---
 
 <html lang="en">
 	<head>
-		<BaseHead title={title} description={description} />
+		<BaseHead title={title} description={effectiveDescription} />
 		<style>
 			main {
 				width: calc(100% - 2em);
@@ -52,6 +55,24 @@ const { title, description, pubDate, updatedDate, heroImage } = Astro.props;
 			.last-updated-on {
 				font-style: italic;
 			}
+			.positioning {
+				font-style: italic;
+				color: rgb(var(--gray));
+				margin: 0.5em 0 0;
+			}
+			.meta {
+				display: flex;
+				flex-wrap: wrap;
+				justify-content: center;
+				gap: 0.5em;
+				margin-top: 0.75em;
+			}
+			.meta code {
+				background: rgba(var(--gray-light), 0.5);
+				border-radius: 4px;
+				padding: 0.1em 0.4em;
+				font-size: 0.85em;
+			}
 		</style>
 	</head>
 
@@ -75,6 +96,15 @@ const { title, description, pubDate, updatedDate, heroImage } = Astro.props;
 							}
 						</div>
 						<h1>{title}</h1>
+						{positioning && <p class="positioning">{positioning}</p>}
+						{
+							(tracks?.length || stack?.length) && (
+								<div class="meta">
+									{tracks?.map((t) => <code>{t}</code>)}
+									{stack?.map((s) => <code>{s}</code>)}
+								</div>
+							)
+						}
 						<hr />
 					</div>
 					<slot />

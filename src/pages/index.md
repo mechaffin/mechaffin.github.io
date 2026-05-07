@@ -1,7 +1,9 @@
 ---
-layout: page
+layout: ../layouts/PageLayout.astro
 title: "Mary Ellen Chaffin"
 ---
+
+# Mary Ellen Chaffin
 
 Frontend engineer and UX architect.
 
@@ -21,4 +23,4 @@ Based south of Seattle.
 
 ---
 
-[Resume](/resume/) · [Writing](/writing/)
+[Resume](/resume/) · [Blog](/blog/)

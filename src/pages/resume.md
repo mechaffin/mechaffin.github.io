@@ -1,8 +1,9 @@
 ---
-layout: page
-title: Resume
-permalink: /resume/
+layout: ../layouts/PageLayout.astro
+title: "Resume"
 ---
+
+# Resume
 
 Frontend software engineer with senior-level experience building complex, production UI systems. Specializes in ambiguous problem spaces, early structure, and system-level clarity. Strong focus on React and TypeScript, front-end architecture, state and data flow design, and internal tools.
 
