@@ -3,7 +3,7 @@ layout: ../layouts/PageLayout.astro
 title: "Alster Basenjis"
 ---
 
-# Sight. Scent. Hounds.
+## Sight. Scent. Hounds.
 
 Most breeds were made by men. To serve man's purposes. Basenjis. Well, they serve no man, unless you figure out what motivates them. They won't just tell you.
 

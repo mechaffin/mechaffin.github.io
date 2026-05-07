@@ -3,15 +3,13 @@ layout: ../layouts/PageLayout.astro
 title: "Mary Ellen Chaffin"
 ---
 
-# Mary Ellen Chaffin
-
 Frontend engineer and UX architect.
 
 Greenfield builds. Complex problem spaces. Design systems, component architectures, and the words on the screen.
 
 People know what they need to get done. My job is making the software stay out of their way.
 
-### Personal
+## Personal
 
 [Alster-Built](https://github.com/Alster-Built) is where my personal projects live. Currently a platform for reasoning under uncertainty and a frontend toolkit for runtime-schema-driven form interfaces.
 
