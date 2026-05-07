@@ -2,7 +2,7 @@
 title: "Forms as Data: A Frontend Toolkit Built for Inline AI Forms"
 positioning: "Schema-driven forms AI can render mid-conversation"
 description: "Schema-driven forms AI can render mid-conversation"
-pubDate: 2026-03-18
+pubDate: 2026-05-06
 tracks: [dev]
 stack: [React 19, TypeScript, MUI 7, Zod 4]
 ---
