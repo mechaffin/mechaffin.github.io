@@ -1,11 +1,16 @@
 ---
+import { Image } from 'astro:assets';
 import { SITE_TITLE } from '../consts';
+import avatar from '../assets/mary-ellen-chaffin.jpg';
 import HeaderLink from './HeaderLink.astro';
 ---
 
 <header>
 	<nav>
-		<h2><a href="/">{SITE_TITLE}</a></h2>
+		<a class="brand" href="/">
+			<Image src={avatar} alt="" width={72} height={72} class="avatar" />
+			<span class="brand-name">{SITE_TITLE}</span>
+		</a>
 		<div class="internal-links">
 			<HeaderLink href="/">Home</HeaderLink>
 			<HeaderLink href="/blog">Blog</HeaderLink>
@@ -38,30 +43,42 @@ import HeaderLink from './HeaderLink.astro';
 	header {
 		margin: 0;
 		padding: 0 1em;
-		background: white;
+		background: var(--bg-paper);
 		box-shadow: 0 2px 8px rgba(var(--black), 5%);
-	}
-	h2 {
-		margin: 0;
-		font-size: 1em;
-	}
-
-	h2 a,
-	h2 a.active {
-		text-decoration: none;
 	}
 	nav {
 		display: flex;
 		align-items: center;
 		justify-content: space-between;
 	}
+	.brand {
+		display: flex;
+		align-items: center;
+		gap: 0.6em;
+		padding: 0.5em 0;
+		text-decoration: none;
+		color: rgb(var(--black));
+	}
+	.avatar {
+		width: 36px;
+		height: 36px;
+		border-radius: 50%;
+		object-fit: cover;
+		display: block;
+	}
+	.brand-name {
+		font-weight: 600;
+		font-size: 1rem;
+	}
 	nav a {
-		padding: 1em 0.5em;
-		color: var(--black);
-		border-bottom: 4px solid transparent;
+		color: rgb(var(--black));
 		text-decoration: none;
 	}
-	nav a.active {
+	.internal-links a {
+		padding: 1em 0.5em;
+		border-bottom: 4px solid transparent;
+	}
+	.internal-links a.active {
 		text-decoration: none;
 		border-bottom-color: var(--accent);
 	}

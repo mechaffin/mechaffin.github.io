@@ -3,6 +3,8 @@ layout: ../layouts/PageLayout.astro
 title: "Mary Ellen Chaffin"
 ---
 
+![Mary Ellen Chaffin](../assets/mary-ellen-chaffin.jpg)
+
 Frontend engineer and UX architect.
 
 Greenfield builds. Complex problem spaces. Design systems, component architectures, and the words on the screen.
