@@ -1,0 +1,67 @@
+---
+import { Image } from 'astro:assets';
+import avatar from '../assets/mary-ellen-chaffin.jpg';
+import BaseHead from '../components/BaseHead.astro';
+import Footer from '../components/Footer.astro';
+import Header from '../components/Header.astro';
+import { SITE_DESCRIPTION, SITE_TITLE } from '../consts';
+---
+
+<!doctype html>
+<html lang="en">
+	<head>
+		<BaseHead title={SITE_TITLE} description={SITE_DESCRIPTION} />
+		<style>
+			main {
+				width: 720px;
+				max-width: calc(100% - 2em);
+				margin: auto;
+				padding: 1em;
+			}
+			.home-hero {
+				width: 220px;
+				height: 220px;
+				border-radius: 50%;
+				object-fit: cover;
+				display: block;
+				margin: 0.5em auto 2em;
+			}
+		</style>
+	</head>
+	<body>
+		<Header />
+		<main>
+			<article>
+				<Image
+					src={avatar}
+					alt="Mary Ellen Chaffin"
+					width={440}
+					height={440}
+					class="home-hero"
+				/>
+				<h1>{SITE_TITLE}</h1>
+				<p>Frontend engineer and UX architect.</p>
+				<p>
+					Greenfield builds. Complex problem spaces. Design systems, component architectures, and
+					the words on the screen.
+				</p>
+				<p>People know what they need to get done. My job is making the software stay out of their way.</p>
+				<h2>Personal</h2>
+				<p>
+					<a href="https://github.com/Alster-Built">Alster-Built</a> is where my personal projects live.
+					Currently a platform for reasoning under uncertainty and a frontend toolkit for runtime-schema-driven
+					form interfaces.
+				</p>
+				<p>
+					Two <a href="/alster-basenjis/">basenjis</a>, retired show dogs - now my nosework partners.
+					Active in dog sports and clubs. Geodetic benchmark hunting, a nod to my dad.
+				</p>
+				<p>Abhors clutter, yet surrounded by it. Aspiring minimalist. Plotting extended road trips.</p>
+				<p>Based south of Seattle.</p>
+				<hr />
+				<p><a href="/resume/">Resume</a> · <a href="/blog/">Blog</a></p>
+			</article>
+		</main>
+		<Footer />
+	</body>
+</html>
