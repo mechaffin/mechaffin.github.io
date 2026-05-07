@@ -1,15 +1,13 @@
 ---
 layout: page
 title: Resume
----
-
-- **[Download resume (PDF)](/work/2026-03 Mary Ellen Chaffin - Resume.pdf)**
-
+permalink: /resume/
 ---
 
 Frontend software engineer with senior-level experience building complex, production UI systems. Specializes in ambiguous problem spaces, early structure, and system-level clarity. Strong focus on React and TypeScript, front-end architecture, state and data flow design, and internal tools.
 
---- 
+---
+
 ## Capabilities
 
 - React, TypeScript, JavaScript
@@ -28,7 +26,7 @@ Frontend software engineer with senior-level experience building complex, produc
 
 ### Senior Front-End Engineer
 
-**Amazon Web Services** (via 24Seven) | Remote | _Aug 2024 – Feb 2026_
+**Amazon Web Services** (via 24Seven) | Remote | _Aug 2024 – Aug 2026_
 
 - Shipped two production applications from zero, including a tool delivered to AWS Console users in under four months.
 - Owned the full front-end from architecture to shipped experience on a greenfield service developed with React, TypeScript, TanStack Query, Vitest, and Cloudscape.
@@ -66,14 +64,16 @@ Frontend software engineer with senior-level experience building complex, produc
 - **Alaska Airlines**: Customer-facing e-commerce UI
 - **CommerceHub**: Backend service design and delivery
 - **Magenic Technologies**: Performance, usability, and code quality consulting
+
 ---
 
 ## Personal projects
+
 - **Clinical Differential Diagnosis Assistant**: Claude-powered tool helping mental health clinicians produce more complete diagnoses with hybrid LLM extraction plus deterministic rule engine, schema-driven React UI. Built with a clinical expert partner (20+ years).
 - **Echo Chamber**: Desktop application for creating and running teams of AI agents via the Anthropic API -
-React, TypeScript, Express backend, streaming chat interface.
+  React, TypeScript, Express backend, streaming chat interface.
 - **Field Kit**: Offline-first mapping platform for locating USGS survey markers without cell service - React
-PWA, IndexedDB, service workers.
+  PWA, IndexedDB, service workers.
 
 ---
 
@@ -86,9 +86,9 @@ University of Alabama, Tuscaloosa, AL
 
 ## Certifications
 
-- Foundations in design thinking — IDEO U
-- AI design academy — UX Writers Collective
-- Fundamentals of UX writing — UX Writers Collective
+- Foundations in Design Thinking — IDEO U
+- AI Design Academy — UX Writers Collective
+- Fundamentals of UX Writing — UX Writers Collective
 
 ---
 

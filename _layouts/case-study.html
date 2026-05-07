@@ -1,0 +1,28 @@
+---
+layout: page
+---
+
+{{page.date | date: "%B %d, %Y" }}
+<hr />
+
+{%- if page.positioning -%}
+<p><em>Positioning:</em> <strong>{{ page.positioning }}</strong></p>
+{%- endif -%} {%- if page.tracks and page.tracks.size > 0 -%}
+<p>
+  {%- for track in page.tracks -%}
+  <code>{{ track }}</code>{% unless forloop.last %} &middot; {% endunless %} {%-
+  endfor -%}
+</p>
+{%- endif -%} {%- if page.stack and page.stack.size > 0 -%}
+<p>
+  <strong>Built with:</strong>
+  {%- for tech in page.stack %} <code>{{ tech }}</code>{% unless forloop.last %}
+  &middot;{% endunless %}{% endfor -%}
+</p>
+{%- endif -%} {%- if page.status and page.status != "published" -%}
+<p><strong>Status:</strong> {{ page.status }}</p>
+{%- endif -%}
+
+<hr />
+
+{{ content }}

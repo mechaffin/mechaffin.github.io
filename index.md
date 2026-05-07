@@ -1,13 +1,24 @@
 ---
-layout: default
-title: Home
+layout: page
+title: "Mary Ellen Chaffin"
 ---
 
-# Mary Ellen Chaffin
+Frontend engineer and UX architect.
 
-I’m a senior front-end engineer focused on clear, usable systems.
+Greenfield builds. Complex problem spaces. Design systems, component architectures, and the words on the screen.
 
-What you’ll find here:
+People know what they need to get done. My job is making the software stay out of their way.
 
-- [Work](/work/) — experience audits and professional background, including **[resume](/work/resume/)**
-- [Personal](/personal/) — personal pages, including _[Alster Basenjis](/personal/alster-basenjis)_
+### Personal
+
+[Alster-Built](https://github.com/Alster-Built) is where my personal projects live. Currently a platform for reasoning under uncertainty and a frontend toolkit for runtime-schema-driven form interfaces.
+
+Two [basenjis](/alster-basenjis/), retired show dogs - now my nosework partners. Active in dog sports and clubs. Geodetic benchmark hunting, a nod to my dad.
+
+Abhors clutter, yet surrounded by it. Aspiring minimalist. Plotting extended road trips.
+
+Based south of Seattle.
+
+---
+
+[Resume](/resume/) · [Writing](/writing/)

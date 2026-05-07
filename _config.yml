@@ -1,5 +1,5 @@
-title: "Clear systems, usable experiences"
-description: "A personal site with experience audits, professional work, and interests shaped by a focus on clarity and usability."
+title: "Mary Ellen Chaffin"
+description: "Frontend engineer and UX architect. Case studies, resume, and real life."
 author: "Mary Ellen Chaffin"
 email: "mechaffin@gmail.com"
 url: "https://mechaffin.github.io"
@@ -21,6 +21,19 @@ markdown: kramdown
 permalink: /:year/:month/:day/:title/
 excerpt_separator: "<!-- more -->"
 
+# Collections
+collections:
+  case_studies:
+    output: true
+    permalink: /writing/:path/
+
+defaults:
+  - scope:
+      path: ""
+      type: case_studies
+    values:
+      layout: case-study
+
 # Exclude from build
 exclude:
   - Gemfile
@@ -28,6 +41,10 @@ exclude:
   - vendor
   - .bundle
   - .jekyll-cache
+  - _archive
+  - node_modules
+  - package.json
+  - package-lock.json
 
 # Social links and theme options (minima)
 minima:
@@ -35,7 +52,7 @@ minima:
   social_links:
     - platform: github
       icon: github
-      user_url: "https://github.com/mechaffin"
+      user_url: "https://github.com/alster-built"
     - platform: linkedin
       icon: linkedin
       user_url: "https://linkedin.com/in/mechaffin"
@@ -48,7 +65,6 @@ linkedin_username: mechaffin
 date_format: "%Y-%m-%d"
 
 # Control which pages appear in the top navigation
+# (index.md is intentionally omitted — the site title in the header already links home)
 header_pages:
-  - index.md
-  - work/index.md
-  - personal/index.md
+  - alster-basenjis.md
