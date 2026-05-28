@@ -3,7 +3,7 @@ layout: ../layouts/PageLayout.astro
 title: "Alster Basenjis"
 ---
 
-## Sight. Scent. Hounds.
+## Sight. Scent. Hounds
 
 Most breeds were made by men. To serve man's purposes. Basenjis. Well, they serve no man, unless you figure out what motivates them. They won't just tell you.
 
@@ -11,7 +11,7 @@ Still in their primitive state. In Africa they're villagers, not pets. Hunting a
 
 They don't miss a beat. Eyes, nose, and ears working at once. Alert and filtering. Is it a friend approaching? Or just some dumb human that doesn't know they are the center of the universe? Focused on their prey. Keep your fences mended and a tight hold on their leash.
 
-They don't bark. And before your eyes light up, they are not silent. Their baroo (cross between a yodel and a rooster) can be loud, in happiness or to give you their opinion. Happy or snark? You'll get their meaning by their tone.
+They don't bark. And before your eyes light up, they are not silent. Their baroo (cross between a yodel and a rooster) can be loud, in happiness or to give you their opinion. Happy or snark? You'll get their meaning.
 
 Cat-like in specific ways. Self-grooming. Dislike of water. Love of heights, to survey their domain. But they are dogs. If not properly entertained, papers or beds might end up in shreds.
 

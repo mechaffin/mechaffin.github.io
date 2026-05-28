@@ -3,7 +3,7 @@ title: "Forms as Data: A Frontend Toolkit Built for Inline AI Forms"
 positioning: "Schema-driven forms AI can render mid-conversation"
 description: "Schema-driven forms AI can render mid-conversation"
 pubDate: 2026-05-06
-tracks: [dev]
+tracks: [toolkit]
 stack: [React 19, TypeScript, MUI 7, Zod 4]
 ---
 
@@ -23,12 +23,12 @@ Two audiences came along for the ride.
 
 The toolkit ships two packages — `core` for contract types and validation, `ui-kit` for the React/MUI rendering — and rests on two decisions: a form system that renders from runtime schemas, and semantic components opinionated enough to make context-appropriate choices on their own.
 
-![Model Card Studio — the assistant calls open_form mid-conversation; the inline form in the chat and the side panel render from the same FieldDefinition array.](../../assets/blog/frontend-toolkit/model-card-studio.png)
-_Model Card Studio — the assistant calls `open_form` mid-conversation with a slice of the schema; the inline form in the chat and the side panel render from the same `FieldDefinition` array._
+![Model Card Studio — the assistant calls open_form mid-conversation; the inline form in the chat and the side panel render from the same FieldDefinition array.](../../assets/blog/t1-frontend-toolkit/model-card-studio.png)
+_Model Card Studio — the assistant calls `open_form` mid-conversation with a slice of the schema; the inline form in the chat and the side panel render from the same `FieldDefinition` array. (Later renamed Form Filler Studio when the schema-pack refactor landed — see [T2](/blog/t2-schema-pack-architecture).)_
 
 ## Forms at runtime, not compile time
 
-Most approaches to forms in React assume the form structure is known when you write the code. React Hook Form, Formik, TanStack Form, plain `useState` — the wiring and state-management stories differ, but usually you write forms as JSX.
+Most approaches to forms in React assume the form structure is known when you write the code — the form is JSX.
 
 This toolkit takes a different approach: the form structure is data. A form is an array of `FieldDefinition` objects — or, when you need labeled sections, an array of sections holding its fields. `FormRenderer` takes that array as `items`, the current values, and an `onChange`, and produces the UI:
 
@@ -97,9 +97,7 @@ Each one surfaces a semantic API and handles the fiddly MUI wiring internally, s
 
 MUI is still the foundation. Apps reach for `Box`, `Stack`, `Typography`, layout containers, and `@mui/icons-material` directly — those aren't semantic components, and the toolkit doesn't try to wrap them. The code smell is narrower: importing `@mui/material/Button` when the semantic `Button` exists, or raw `TextField`, `Autocomplete`, or `Select` when the toolkit already wraps them. The semantic components exist so developers don't relitigate "what color does a destructive action use here?" on every button in every app.
 
-Here's the trade-off: apps lose options. A one-off design that doesn't fit the semantic API requires either extending the component or doing without. The conventions only pay off if you actually follow them, even when you're the only one using them.
-
-The payoff matches: apps are easier to build, easier to keep consistent, and easier to upgrade. A breaking MUI change touches one place, not every consuming app.
+The trade-off: apps lose options. A one-off design that doesn't fit the semantic API requires either extending the component or doing without — and the conventions only pay off if you actually follow them, even when you're the only one using them. In exchange, apps are easier to build, easier to keep consistent, and easier to upgrade. A breaking MUI change touches one place, not every consuming app.
 
 ## What this isn't
 
@@ -111,4 +109,4 @@ The payoff matches: apps are easier to build, easier to keep consistent, and eas
 
 The toolkit serves two consumers. The chat-driven form-filler is its founding use case — rich, validated forms rendered inline in a conversation, with the assistant deciding mid-flight what to ask — and was the exercise that proved the pattern end-to-end. A separate app in a different domain runs on the same toolkit and stress-tests the `customFields` and `variant` escape hatches against controls no built-in field can model. Two unrelated apps closed the early big gaps in the form system and the component set.
 
-Open work: genericize the chat app via a schema-pack architecture, so it becomes reusable infrastructure rather than a one-domain prototype.
+Next: the chat-driven form-filler was generalized into a schema-pack architecture, so adding a new document type is a JSON file rather than a new app. [T2 covers that refactor](/blog/t2-schema-pack-architecture).

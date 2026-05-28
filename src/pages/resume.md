@@ -3,6 +3,8 @@ layout: ../layouts/PageLayout.astro
 title: "Resume"
 ---
 
+[mechaffin@gmail.com](mailto:mechaffin@gmail.com) · [mechaffin.github.io](https://mechaffin.github.io) · [GitHub](https://github.com/alster-built) · [LinkedIn](https://www.linkedin.com/in/mechaffin)
+
 Frontend software engineer with senior-level experience building complex, production UI systems. Specializes in ambiguous problem spaces, early structure, and system-level clarity. Strong focus on React and TypeScript, front-end architecture, state and data flow design, and internal tools.
 
 ---
@@ -25,7 +27,7 @@ Frontend software engineer with senior-level experience building complex, produc
 
 ### Senior Front-End Engineer
 
-**Amazon Web Services** (via 24Seven) | Remote | _Aug 2024 – Aug 2026_
+**Amazon Web Services** (via 24Seven) | Remote | _Aug 2024 – present_
 
 - Shipped two production applications from zero, including a tool delivered to AWS Console users in under four months.
 - Owned the full front-end from architecture to shipped experience on a greenfield service developed with React, TypeScript, TanStack Query, Vitest, and Cloudscape.
@@ -68,11 +70,8 @@ Frontend software engineer with senior-level experience building complex, produc
 
 ## Personal projects
 
-- **Clinical Differential Diagnosis Assistant**: Claude-powered tool helping mental health clinicians produce more complete diagnoses with hybrid LLM extraction plus deterministic rule engine, schema-driven React UI. Built with a clinical expert partner (20+ years).
-- **Echo Chamber**: Desktop application for creating and running teams of AI agents via the Anthropic API -
-  React, TypeScript, Express backend, streaming chat interface.
-- **Field Kit**: Offline-first mapping platform for locating USGS survey markers without cell service - React
-  PWA, IndexedDB, service workers.
+- **Frontend toolkit**: Schema-driven forms an AI can render mid-conversation, plus a semantic component kit. React, TypeScript, MUI, Zod. [Case study](/blog/t1-frontend-toolkit).
+- **Decision tooling**: An alternative to LLM generation for high-stakes decision-making. Bayesian networks, React, TypeScript, Frontend toolkit.
 
 ---
 
@@ -91,4 +90,4 @@ University of Alabama, Tuscaloosa, AL
 
 ---
 
-_Last updated: 2026-03_
+_Last updated: 2026-05_
