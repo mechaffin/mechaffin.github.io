@@ -107,6 +107,6 @@ The trade-off: apps lose options. A one-off design that doesn't fit the semantic
 
 ## Where it stands
 
-The toolkit serves two consumers. The chat-driven form-filler is its founding use case — rich, validated forms rendered inline in a conversation, with the assistant deciding mid-flight what to ask — and was the exercise that proved the pattern end-to-end. A separate app in a different domain runs on the same toolkit and stress-tests the `customFields` and `variant` escape hatches against controls no built-in field can model. Two unrelated apps closed the early big gaps in the form system and the component set.
+The chat-driven form-filler is the founding use case: rich, validated forms rendered inline in a conversation, with the assistant deciding mid-flight what to ask. A second application in an unrelated domain runs on the same toolkit and stress-tests the `customFields` and `variant` escape hatches. Two unrelated apps surfaced the gaps that mattered.
 
-Next: the chat-driven form-filler was generalized into a schema-pack architecture, so adding a new document type is a JSON file rather than a new app. [T2 covers that refactor](/blog/t2-schema-pack-architecture).
+Next: the chat-driven form-filler will be generalized into a schema-pack architecture, so adding a new document type is a JSON file rather than a new app.
