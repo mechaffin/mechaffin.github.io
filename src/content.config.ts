@@ -12,7 +12,6 @@ const blog = defineCollection({
 			updatedDate: z.coerce.date().optional(),
 			heroImage: z.optional(image()),
 			// Case-study extras (optional). Posts that aren't case studies omit these.
-			positioning: z.string().optional(),
 			tracks: z.array(z.string()).optional(),
 			stack: z.array(z.string()).optional(),
 		}),

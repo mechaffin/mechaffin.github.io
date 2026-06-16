@@ -5,17 +5,17 @@ title: "Alster Basenjis"
 
 ## Sight. Scent. Hounds
 
-Most breeds were made by men. To serve man's purposes. Basenjis. Well, they serve no man, unless you figure out what motivates them. They won't just tell you.
+Most breeds were made by men, to serve man's purposes. Not the basenji. They serve no man — unless you figure out what motivates them. And they won't just tell you.
 
 Still in their primitive state. In Africa they're villagers, not pets. Hunting alongside men, each with a distinct bell at the neck — the bell tells the hunter where the dog is. And where the prey is.
 
-They don't miss a beat. Eyes, nose, and ears working at once. Alert and filtering. Is it a friend approaching? Or just some dumb human that doesn't know they are the center of the universe? Focused on their prey. Keep your fences mended and a tight hold on their leash.
+They don't miss a beat. Eyes, nose, and ears working at once. Alert and discerning. Is that a friend approaching? Or some dumb human not treating them like the royalty they believe they are? Otherwise, locked on whatever just moved. Keep your fences mended and a tight hold on the leash.
 
-They don't bark. And before your eyes light up, they are not silent. Their baroo (cross between a yodel and a rooster) can be loud, in happiness or to give you their opinion. Happy or snark? You'll get their meaning.
+They don't bark. But before your eyes light up, they are not silent. Their baroo (a cross between a yodel and a rooster) can be loud, in happiness or to give you their opinion. Happy or snark? You're unlikely to miss their meaning.
 
-Cat-like in specific ways. Self-grooming. Dislike of water. Love of heights, to survey their domain. But they are dogs. If not properly entertained, papers or beds might end up in shreds.
+Cat-like in specific ways. Self-grooming. Dislike of water. Love of heights, to survey their domain. But they are dogs. If not properly entertained, papers or pillows could end up in shreds.
 
-Regal. And mischeivious.
+Regal. And mischievous.
 
 ## Current dogs
 

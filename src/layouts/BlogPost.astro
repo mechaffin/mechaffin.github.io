@@ -9,15 +9,12 @@ import Header from '../components/Header.astro';
 
 type Props = CollectionEntry<'blog'>['data'];
 
-const { title, description, pubDate, updatedDate, heroImage, positioning, tracks, stack } =
-	Astro.props;
-
-const effectiveDescription = description ?? positioning;
+const { title, description, pubDate, updatedDate, heroImage, tracks, stack } = Astro.props;
 ---
 
 <html lang="en">
 	<head>
-		<BaseHead title={title} description={effectiveDescription} />
+		<BaseHead title={title} description={description} />
 		<style>
 			main {
 				width: calc(100% - 2em);
@@ -56,7 +53,7 @@ const effectiveDescription = description ?? positioning;
 			.last-updated-on {
 				font-style: italic;
 			}
-			.positioning {
+			.subtitle {
 				font-style: italic;
 				color: rgb(var(--gray));
 				margin: 0.5em 0 0;
@@ -97,7 +94,7 @@ const effectiveDescription = description ?? positioning;
 							}
 						</div>
 						<h1>{title}</h1>
-						{positioning && <p class="positioning">{positioning}</p>}
+						{description && <p class="subtitle">{description}</p>}
 						{
 							(tracks?.length || stack?.length) && (
 								<div class="meta">

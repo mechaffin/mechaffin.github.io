@@ -2,22 +2,27 @@
  * Theme tokens translated from the MUI theme at
  * alster-built/frontend/packages/ui-kit/src/theme. Light mode only.
  *
+ * Matches the ui-kit palette, with one deliberate divergence: the ui-kit
+ * primary is charcoal (PRIMARY_LIGHT #383838), which reads as flat on a
+ * content site. We keep teal as the accent instead. Everything else — the
+ * neutral grey scale and backgrounds — tracks the ui-kit values.
+ *
  * RGB tuples (no rgb()) so they can be used with rgba(var(--token), %).
  */
 
 :root {
-	/* Primary — warm teal (PRIMARY_LIGHT) */
+	/* Accent — teal (deliberate divergence from the ui-kit charcoal primary) */
 	--accent: #1a7a6d;
 	--accent-dark: #15665c;
 
-	/* Warm-shifted grey scale (light-mode text/divider tokens) */
-	--black: 26, 25, 24; /* grey 900 — text.primary */
-	--gray-dark: 46, 45, 43; /* grey 800 — body reading color */
-	--gray: 104, 101, 98; /* grey 600 — text.secondary */
-	--gray-light: 224, 223, 220; /* grey 200 — divider / subtle background */
+	/* True-neutral grey scale (ui-kit greys flattened to R=G=B — no hue) */
+	--black: 24, 24, 24; /* grey 900 — text.primary */
+	--gray-dark: 44, 44, 44; /* grey 800 — body reading color */
+	--gray: 100, 100, 100; /* grey 600 — text.secondary */
+	--gray-light: 224, 224, 224; /* grey 200 — divider / subtle background */
 
 	/* Backgrounds */
-	--bg-default: #fafaf8; /* BG_DEFAULT_LIGHT */
+	--bg-default: #f2f2f2; /* BG_DEFAULT_LIGHT, neutralized */
 	--bg-paper: #ffffff; /* BG_PAPER_LIGHT */
 	--gray-gradient: rgba(var(--gray-light), 50%), var(--bg-default);
 

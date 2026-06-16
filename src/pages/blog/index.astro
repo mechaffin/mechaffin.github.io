@@ -70,7 +70,7 @@ const posts = (await getCollection('blog')).sort(
 				<ul>
 					{
 						posts.map((post) => {
-							const excerpt = post.data.description ?? post.data.positioning;
+							const excerpt = post.data.description;
 							return (
 								<li>
 									<a href={`/blog/${post.id}/`}>

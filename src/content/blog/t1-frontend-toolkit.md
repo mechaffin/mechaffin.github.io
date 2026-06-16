@@ -1,6 +1,5 @@
 ---
 title: "Forms as Data: A Frontend Toolkit Built for Inline AI Forms"
-positioning: "Schema-driven forms AI can render mid-conversation"
 description: "Schema-driven forms AI can render mid-conversation"
 pubDate: 2026-05-06
 tracks: [toolkit]
@@ -18,13 +17,13 @@ For that to work, the form structure has to be data, not code. JSX-at-compile-ti
 
 Two audiences came along for the ride.
 
-- **End users**: low visual noise, efficient task completion. If there are only four options, hiding them in a dropdown is two clicks for a user. Can we make one possible? Can it do that automatically?
+- **End users**: structured input can beat typing into a chat box. Click a button, pick a valid option, answer a few fields at a time instead of composing paragraphs the assistant may not need. Low visual noise, efficient task completion. If there are only four options, hiding them in a dropdown is two clicks for a user. Can we make one possible? Can it do that automatically?
 - **Developers**: a developer shouldn't have to fight with CSS and extra divs just to get a particular area of the page to scroll. Solve those things at the toolkit level. Once. Then every application built on top benefits without re-solving them on every page of every app. Forms can be described declaratively, not wired by hand. A delete button can indicate its intent as `destructive`, instead of thinking about colors.
 
 The toolkit ships two packages — `core` for contract types and validation, `ui-kit` for the React/MUI rendering — and rests on two decisions: a form system that renders from runtime schemas, and semantic components opinionated enough to make context-appropriate choices on their own.
 
 ![Model Card Studio — the assistant calls open_form mid-conversation; the inline form in the chat and the side panel render from the same FieldDefinition array.](../../assets/blog/t1-frontend-toolkit/model-card-studio.png)
-_Model Card Studio — the assistant calls `open_form` mid-conversation with a slice of the schema; the inline form in the chat and the side panel render from the same `FieldDefinition` array. (Later renamed Form Filler Studio when the schema-pack refactor landed — see [T2](/blog/t2-schema-pack-architecture).)_
+_Model Card Studio — the assistant calls `open_form` mid-conversation with a slice of the schema; the inline form in the chat and the side panel render from the same `FieldDefinition` array._
 
 ## Forms at runtime, not compile time
 
